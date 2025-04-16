@@ -1,4 +1,4 @@
-# tech-titans-vs-market-volatility
+# Tech Titans vs Market Volatility
 This project analyzes the resilience of major technology companies Apple, Microsoft, Tesla, Nvidia during key global economic shocks such as the COVID-19 pandemic and inflation-driven selloffs. It compares their performance against broader market indices: the S&P 500 (^GSPC) and Nasdaq Composite (^IXIC).
 
 # Objective

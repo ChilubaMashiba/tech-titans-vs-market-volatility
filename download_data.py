@@ -1,7 +1,8 @@
 import yfinance as yf
 import pandas as pd
+import os
 
-def fetch_data(tickers, start='2020-01-01', end='2024-12-31'):
+def fetch_data(tickers, start='2010-01-01', end='2024-12-31'):
     all_data = pd.DataFrame()
 
     for ticker in tickers:
@@ -25,6 +26,11 @@ if __name__ == "__main__":
     df = fetch_data(tickers)
 
     if not df.empty:
-        print(df.head())
-        df.to_csv("data/tech_vs_index_prices.csv")
+        # Ensure data/ folder exists
+        os.makedirs("data", exist_ok=True)
 
+        df.to_csv("data/tech_vs_index_prices.csv")
+        print("✅ Data successfully saved to data/tech_vs_index_prices.csv")
+        print(df.head())
+    else:
+        print("⚠️ No data fetched.")

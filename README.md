@@ -26,6 +26,9 @@ Together, these analyses provide a comprehensive perspective on each stock’s v
 We include time-series plots for daily returns and rolling measures, highlighting structural shifts during key market stress periods such as the Eurozone crisis, COVID-19 crash, and the inflation-driven drawdown.
 
 # Key Findings
+-
+-
+-
 
 # Local Setup 
 Installation - Ensure that your Python environment has installed the following dependencies:

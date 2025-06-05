@@ -1,5 +1,6 @@
 # Tech Titans vs Market Volatility
 This project analyzes whether major tech companies Apple (AAPL), Microsoft (MSFT), Tesla (TSLA), and Nvidia (NVDA) behave more like resilient or risky assets during periods of financial crises, by comparing them to market indices like the S&P 500 (^GSPC) and Nasdaq (^IXIC). 
+
 Periods of financial stress often trigger a “flight to quality,” where investors move from riskier assets to safer ones. This study explores whether tech stocks exhibit defensive characteristics or increased sensitivity during such periods, offering insights into asset allocation, financial contagion, and sector-specific behavior under systemic stress.
 
 # Data Collection and Preparation

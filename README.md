@@ -1,13 +1,14 @@
 # Tech Titans vs Market Volatility
-This project analyzes whether major technology companies Apple (AAPL), Microsoft (MSFT), Tesla (TSLA), and Nvidia (NVDA) behave more like resilient or risky assets during periods of financial crises. It compares their performance against broader market indices: the S&P 500 (^GSPC) and Nasdaq Composite (^IXIC). The goal is to understand the defensive or volatile nature of tech stocks during periods of market-wide stress.
+This project analyzes whether major tech companies Apple (AAPL), Microsoft (MSFT), Tesla (TSLA), and Nvidia (NVDA) behave more like resilient or risky assets during periods of financial crises, by comparing them to market indices like the S&P 500 (^GSPC) and Nasdaq (^IXIC). 
+Periods of financial stress often trigger a “flight to quality,” where investors move from riskier assets to safer ones. This study explores whether tech stocks exhibit defensive characteristics or increased sensitivity during such periods, offering insights into asset allocation, financial contagion, and sector-specific behavior under systemic stress.
 
 # Data Collection and Preparation
-We downloaded daily adjusted closing prices from Yahoo Finance for each stock and index from 2010 to 2024 using Python’s yfinance library. This dataset provides a consistent historical basis for examining the behavior of tech stocks and market indices during periods of financial stress.
+We downloaded daily adjusted closing prices from Yahoo Finance for each stock and index from 2010 to 2024 using Python’s yfinance library. This dataset provides a consistent historical basis for examining the behavior of tech stocks and market indices.
 
 # Our research question is: 
 Do major technology stocks behave more like resilient (defensive) assets or risky assets during periods of financial market stress?
 
-# Analsyis
+# Analysis
 We apply a series of time-series analyses. Specifically, we compute:
 # Daily Returns
 We calculated the daily returns for each stock to understand their day-to-day fluctuations. Daily returns show how much the value of a stock changes in a day, which is crucial for assessing both short-term volatility and investor exposure to rapid market movements.
@@ -31,15 +32,14 @@ We include time-series plots for daily returns and rolling measures, highlightin
 -
 
 # Local Setup 
-Installation - Ensure that your Python environment has installed the following dependencies:
-**JupyterLab:** Jupyter Notebook
-**Python 3.8+
-**Python Libraries:** pandas, matplotlib, seaborn, yfinance, numpy
-**Version Control:** Git, GitHub
-
+Ensure that your environment has the following:
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+- Libraries: pandas, matplotlib, seaborn, yfinance, numpy
+- Version Control: Git, GitHub
 
 # Authors
-
+Chiluba Mashiba, Alina Ruzhentseva
 
 
 
